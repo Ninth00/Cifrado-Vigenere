@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cifrado Vigenère</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Cifrado y Descifrado Vigenère</h1>
+        
+        <div class="formulario">
+            <label for="mensaje">Mensaje:</label>
+            <input type="text" id="mensaje">
+            
+            <label for="clave">Clave:</label>
+            <input type="text" id="clave">
+            
+            <button onclick="cifrar()">Cifrar</button>
+            <button onclick="descifrar()">Descifrar</button>
+        </div>
+        
+        <div class="resultado">
+            <h2>Resultado:</h2>
+            <p id="resultado"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
